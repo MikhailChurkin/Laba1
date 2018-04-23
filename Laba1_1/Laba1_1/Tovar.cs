@@ -35,6 +35,10 @@ namespace Laba1_1
             Kol_vo = kol_vo;
             Stoimost = stoimost;
         }
+        /// <summary>
+        /// Вход объекта класса
+        /// </summary>
+        /// <returns></returns>
         public override string ToString()
         {
             return "\n Имя: " + name + "\n Количество: " + kol_vo + "\n Стоимость  : " + stoimost;
